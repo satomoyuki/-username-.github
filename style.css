@@ -35,7 +35,7 @@ h1 {
 input[type="text"] {
     padding: 15px;
     font-size: 1.2em; /* フォントサイズを少し小さく */
-    width: 60%;
+    width: 70%;
     margin-bottom: 20px;
     border: 2px solid #ccc;
     border-radius: 5px;
@@ -93,7 +93,7 @@ button:hover {
 }
 
 #resultOutcome {
-    font-size: 4em; /* ○○賞の文字を大きく */
+    font-size: 5em; /* ○○賞の文字を大きく */
     margin-bottom: 30px;
 }
 
@@ -102,6 +102,7 @@ button:hover {
     height: auto;
     display: block;
     margin: 20px auto; /* gifを中央に配置 */
+    margin-bottom: 100px;
 }
 
 #goBackButton {
