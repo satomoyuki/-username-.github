@@ -72,7 +72,7 @@ button:hover {
     }
 
     input[type="text"] {
-        width: 60%; /* テキストボックスも画面幅に合わせる */
+        width: 75%; /* テキストボックスも画面幅に合わせる */
         font-size: 1.5em;
         padding: 15px;
     }
@@ -125,15 +125,15 @@ button:hover {
 /* iPhone 12用のメディアクエリ */
 @media (max-width: 390px) {
     #resultMessage {
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
 
     #resultOutcome {
-        font-size: 2.5em; /* 画面幅に応じてサイズ調整 */
+        font-size: 5em; /* 画面幅に応じてサイズ調整 */
     }
 
     #goBackButton {
         width: 80%; /* ボタンを画面に合わせる */
-        margin-top: 100px;
+        margin-top: 1000px;
     }
 }
