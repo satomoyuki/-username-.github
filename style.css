@@ -72,7 +72,7 @@ button:hover {
     }
 
     input[type="text"] {
-        width: 100%; /* テキストボックスも画面幅に合わせる */
+        width: 70%; /* テキストボックスも画面幅に合わせる */
         font-size: 1.5em;
         padding: 15px;
     }
@@ -93,8 +93,8 @@ button:hover {
 }
 
 #resultOutcome {
-    font-size: 5em; /* ○○賞の文字を大きく */
-    margin-bottom: 30px;
+    font-size: 4.5em; /* ○○賞の文字を大きく */
+    margin-bottom: 20px;
 }
 
 #resultGif {
