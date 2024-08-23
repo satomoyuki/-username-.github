@@ -35,7 +35,7 @@ h1 {
 input[type="text"] {
     padding: 15px;
     font-size: 1.2em; /* フォントサイズを少し小さく */
-    width: 80%;
+    width: 60%;
     margin-bottom: 20px;
     border: 2px solid #ccc;
     border-radius: 5px;
@@ -72,7 +72,7 @@ button:hover {
     }
 
     input[type="text"] {
-        width: 80%; /* テキストボックスも画面幅に合わせる */
+        width: 60%; /* テキストボックスも画面幅に合わせる */
         font-size: 1.5em;
         padding: 15px;
     }
@@ -129,11 +129,11 @@ button:hover {
     }
 
     #resultOutcome {
-        font-size: 2em; /* 画面幅に応じてサイズ調整 */
+        font-size: 2.5em; /* 画面幅に応じてサイズ調整 */
     }
 
     #goBackButton {
         width: 80%; /* ボタンを画面に合わせる */
-        margin-top: 50px;
+        margin-top: 100px;
     }
 }
