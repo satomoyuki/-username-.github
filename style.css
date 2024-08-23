@@ -14,8 +14,8 @@ body {
 
 .container {
     text-align: center;
-    width: 90%;
-    max-width: 500px;
+    width: 70%;
+    max-width: 400px;
 }
 
 h1 {
@@ -31,7 +31,7 @@ h1 {
 input[type="text"] {
     padding: 15px;
     font-size: 1.5em;
-    width: 80%; /* テキストボックスの横幅を80%に */
+    width: 66%; /* テキストボックスの横幅を80%に */
     margin-bottom: 20px; /* テキストボックスの下に余白を追加 */
     border: 2px solid #ccc;
     border-radius: 5px;
@@ -69,12 +69,12 @@ button:hover {
 }
 
 #resultMessage {
-    font-size: 2em;  /* メッセージの文字サイズ */
+    font-size: 1.5em;  /* メッセージの文字サイズ */
     margin-bottom: 20px;  /* メッセージの下に余白を追加 */
 }
 
 #resultOutcome {
-    font-size: 5em;  /* 結果の文字を大きく表示 */
+    font-size: 4em;  /* 結果の文字を大きく表示 */
     margin-top: 40px;  /* 結果の文字をもう少し下に */
     margin-bottom: 40px;  /* 結果の下に余白を追加 */
 }
