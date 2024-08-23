@@ -38,7 +38,7 @@ window.onload = function() {
         }
     }
 
-    function drawOmikuji() {
+    function showResult() {
         const name = document.getElementById('nameInput').value;
 
         // 結果を配列から順番に取得
