@@ -58,7 +58,7 @@ button:hover {
 @media (max-width: 600px) {
     input[type="text"] {
         font-size: 1.2em;
-        width: 100%; /* スマホ用に横幅を100%に調整 */
+        width: 80%; /* スマホ用に横幅を100%に調整 */
     }
 
     button {
