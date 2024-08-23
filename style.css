@@ -14,6 +14,7 @@ body {
 
 .container {
     text-align: center;
+    font-size: 1.5em;
     width: 50%;
     max-width: 400px;
 }
@@ -31,7 +32,7 @@ h1 {
 input[type="text"] {
     padding: 15px;
     font-size: 1.5em;
-    width: 60%; /* テキストボックスの横幅を80%に */
+    width: 45%; /* テキストボックスの横幅を80%に */
     margin-bottom: 20px; /* テキストボックスの下に余白を追加 */
     border: 2px solid #ccc;
     border-radius: 5px;
