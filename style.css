@@ -74,5 +74,66 @@ button:hover {
     input[type="text"] {
         width: 100%; /* テキストボックスも画面幅に合わせる */
         font-size: 1.5em;
+        padding: 15px;
+    }
+}
+
+/* 結果画面のスタイル */
+#resultContainer {
+    text-align: center;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#resultMessage {
+    font-size: 1.5em; /* 結果メッセージのサイズを大きく */
+    margin-bottom: 20px;
+}
+
+#resultOutcome {
+    font-size: 2.5em; /* ○○賞の文字を大きく */
+    margin-bottom: 20px;
+}
+
+#resultGif {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* gifを中央に配置 */
+}
+
+#goBackButton {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #00BFFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 40px; /* ボタンをもっと下に配置 */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#goBackButton:hover {
+    background-color: #00A3CC;
+}
+
+/* iPhone 12用のメディアクエリ */
+@media (max-width: 390px) {
+    #resultMessage {
+        font-size: 1.3em;
+    }
+
+    #resultOutcome {
+        font-size: 2em; /* 画面幅に応じてサイズ調整 */
+    }
+
+    #goBackButton {
+        width: 80%; /* ボタンを画面に合わせる */
+        margin-top: 50px;
     }
 }
