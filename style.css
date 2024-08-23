@@ -14,13 +14,13 @@ body {
 
 .container {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.0em;
     width: 50%;
-    max-width: 400px;
+    max-width: 300px;
 }
 
 h1 {
-    margin-bottom: 20px;  /* タイトルの下に余白を追加 */
+    margin-bottom: 50px;  /* タイトルの下に余白を追加 */
 }
 
 #omikujiImage {
@@ -40,7 +40,7 @@ input[type="text"] {
 
 button {
     padding: 8px 16px;
-    font-size: 1.2em;
+    font-size: 1.5em;
     background-color: #00BFFF; /* ポルカドットスティングレイのカラー */
     color: white;
     border: none;
@@ -90,7 +90,7 @@ button:hover {
 button {
     padding: 8px 15px;
     font-size: 1.2em;
-    margin-top: 80px;  /* ボタンをもっと下に配置 */
+    margin-top: 60px;  /* ボタンをもっと下に配置 */
     background-color: #00BFFF;
     color: white;
     border: none;
