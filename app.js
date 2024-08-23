@@ -14,11 +14,11 @@ window.onload = function() {
     
     if (name) {
         const results = [
-            { outcome: "大吉", color: "green", gif: "daikichi.gif" },
-            { outcome: "中吉", color: "blue", gif: "chukichi.gif" },
-            { outcome: "小吉", color: "orange", gif: "shokichi.gif" },
-            { outcome: "末吉", color: "purple", gif: "suekichi.gif" },
-            { outcome: "凶", color: "red", gif: "kyo.gif" }
+            { outcome: "P 賞", color: "green", gif: "daikichi.gif" },
+            { outcome: "O 賞", color: "blue", gif: "chukichi.gif" },
+            { outcome: "L 賞", color: "orange", gif: "shokichi.gif" },
+            { outcome: "K 賞", color: "purple", gif: "suekichi.gif" },
+            
         ];
         
         // ランダムに結果を選ぶ
