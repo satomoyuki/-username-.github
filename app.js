@@ -38,7 +38,7 @@ window.onload = function() {
         }
     }
 
-    function showResult() {
+    /*function showResult() {
         const name = document.getElementById('nameInput').value;
 
         // 結果を配列から順番に取得
@@ -58,9 +58,11 @@ window.onload = function() {
         if (results.length === 0) {
             resetResults();  // 結果が尽きたらリセット
         }
-    }
+    }*/
 
-    // リセットボタンの動作
+    // リセットボタンの動作を設定
+}; 
+// リセットボタンの動作
     function resetApp() {
         resetResults();  // 全ての賞が15回ずつの状態に戻す
         alert("リセットされました！");
@@ -74,5 +76,4 @@ window.onload = function() {
 
     // ボタンのイベントリスナーを設定
     document.querySelector('button').onclick = drawOmikuji;
-    document.getElementById('resetButton').onclick = resetApp;  // リセットボタンの動作を設定
-};
+    document.getElementById('resetButton').onclick = resetApp; 
