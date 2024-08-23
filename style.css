@@ -72,7 +72,7 @@ button:hover {
     }
 
     input[type="text"] {
-        width: 80%; /* テキストボックスも画面幅に合わせる */
+        width: 100%; /* テキストボックスも画面幅に合わせる */
         font-size: 1.5em;
         padding: 15px;
     }
