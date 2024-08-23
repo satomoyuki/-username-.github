@@ -89,12 +89,12 @@ button:hover {
 
 #resultMessage {
     font-size: 2em; /* 結果メッセージのサイズを大きく */
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 #resultOutcome {
     font-size: 4.5em; /* ○○賞の文字を大きく */
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 #resultGif {
