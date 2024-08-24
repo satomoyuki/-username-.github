@@ -96,7 +96,7 @@ button:hover {
 #resultOutcome {
     margin-top: 5px;  /* 上の空白を小さく */
     text-align: center;  /* 中央寄せ */
-    font-size: 28px;  /* 文字サイズを調整 */
+    font-size: 50px;  /* 文字サイズを調整 */
     font-weight: bold;  /* 太字にして強調 */
 }
 
@@ -105,8 +105,8 @@ button:hover {
     height: auto;
     display: block;
     margin: 20px auto; /* gifを中央に配置 */
-    margin-top: auto;
-    margin-bottom: 30px;
+    margin-top: 40;
+    margin-bottom: 2000px;
 }
 
 #goBackButton {
