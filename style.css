@@ -95,9 +95,9 @@ button:hover {
 }
 
 #resultOutcome {
-    margin-top: 5px;  /* 上の空白を小さく */
+    margin-top: 10px;  /* 上の空白を小さく */
     text-align: center;  /* 中央寄せ */
-    font-size: 10em;  /* 文字サイズを調整 */
+    font-size: 20em;  /* 文字サイズを調整 */
     font-weight: bold;  /* 太字にして強調 */
 }
 
@@ -118,7 +118,7 @@ button:hover {
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    margin-top: 100px; /* ボタンをもっと下に配置 */
+    margin-top: 200px; /* ボタンをもっと下に配置 */
     display: block;
     margin-left: auto;
     margin-right: auto;
