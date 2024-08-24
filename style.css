@@ -88,15 +88,16 @@ button:hover {
 }
 
 #resultMessage {
+    margin-top: 10px;
     margin-bottom: 5px;  /* 下の空白を小さく */
     text-align: center;  /* 中央寄せ */
-    font-size: 24px;  /* 文字サイズを調整 */
+    font-size: 40px;  /* 文字サイズを調整 */
 }
 
 #resultOutcome {
     margin-top: 5px;  /* 上の空白を小さく */
     text-align: center;  /* 中央寄せ */
-    font-size: 50px;  /* 文字サイズを調整 */
+    font-size: 200px;  /* 文字サイズを調整 */
     font-weight: bold;  /* 太字にして強調 */
 }
 
