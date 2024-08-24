@@ -88,14 +88,16 @@ button:hover {
 }
 
 #resultMessage {
-    font-size: 2em; /* 結果メッセージのサイズを大きく */
-    margin-bottom: 10px;
+    margin-bottom: 5px;  /* 下の空白を小さく */
+    text-align: center;  /* 中央寄せ */
+    font-size: 24px;  /* 文字サイズを調整 */
 }
 
 #resultOutcome {
-    font-size: 4.5em; /* ○○賞の文字を大きく */
-    margin-bottom: 10px;
-    margin-top: auto;
+    margin-top: 5px;  /* 上の空白を小さく */
+    text-align: center;  /* 中央寄せ */
+    font-size: 28px;  /* 文字サイズを調整 */
+    font-weight: bold;  /* 太字にして強調 */
 }
 
 #resultGif {
@@ -140,5 +142,17 @@ button:hover {
     #goBackButton {
         width: 80%; /* ボタンを画面に合わせる */
         margin-top: 1000px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #resultMessage {
+        font-size: 18px;
+        margin-bottom: 3px;
+    }
+
+    #resultOutcome {
+        font-size: 22px;
+        margin-top: 3px;
     }
 }
