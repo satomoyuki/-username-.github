@@ -134,7 +134,7 @@ button:hover {
     #resultOutcome {
         font-size: 10em; /* 画面幅に応じてサイズ調整 */
         margin-bottom: 10px;
-        margin-top: auto;
+        margin-top: 10px;
     }
 
     #goBackButton {
