@@ -106,8 +106,8 @@ button:hover {
     height: auto;
     display: block;
     margin: 20px auto; /* gifを中央に配置 */
-    margin-top: 40;
-    margin-bottom: 2000px;
+    margin-top: auto;
+    margin-bottom: 30px;
 }
 
 #goBackButton {
@@ -146,14 +146,15 @@ button:hover {
     }
 }
 
-/*@media screen and (max-width: 390px) {
+@media screen and (max-width: 390px) {
     #resultMessage {
-        font-size: 18px;
+        margin-top: 10px;
+        font-size: 20px;
         margin-bottom: 3px;
     }
 
     #resultOutcome {
-        font-size: 22px;
+        font-size: 50px;
         margin-top: 3px;
     }
-}*/
+}
