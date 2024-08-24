@@ -84,7 +84,7 @@ button:hover {
     padding: 20px;
     width: 90%;
     max-width: 500px;
-    margin: 0 auto;
+    
 }
 
 #resultMessage {
@@ -95,6 +95,7 @@ button:hover {
 #resultOutcome {
     font-size: 4.5em; /* ○○賞の文字を大きく */
     margin-bottom: 10px;
+    margin-top: auto;
 }
 
 #resultGif {
