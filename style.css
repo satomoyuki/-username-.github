@@ -145,7 +145,7 @@ button:hover {
     }
 }
 
-@media screen and (max-width: 390px) {
+/*@media screen and (max-width: 390px) {
     #resultMessage {
         font-size: 18px;
         margin-bottom: 3px;
@@ -155,4 +155,4 @@ button:hover {
         font-size: 22px;
         margin-top: 3px;
     }
-}
+}*/
