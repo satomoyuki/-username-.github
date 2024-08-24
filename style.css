@@ -84,7 +84,7 @@ button:hover {
     padding: 20px;
     width: 90%;
     max-width: 500px;
-    
+    margin: 0 auto;
 }
 
 #resultMessage {
@@ -134,6 +134,7 @@ button:hover {
     #resultOutcome {
         font-size: 10em; /* 画面幅に応じてサイズ調整 */
         margin-bottom: 10px;
+        margin-top: auto;
     }
 
     #goBackButton {
