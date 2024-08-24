@@ -89,15 +89,15 @@ button:hover {
 
 #resultMessage {
     margin-top: 10px;
-    margin-bottom: 5px;  /* 下の空白を小さく */
+    margin-bottom: 15px;  /* 下の空白を小さく */
     text-align: center;  /* 中央寄せ */
-    font-size: 40px;  /* 文字サイズを調整 */
+    font-size: 20px;  /* 文字サイズを調整 */
 }
 
 #resultOutcome {
-    margin-top: 10px;  /* 上の空白を小さく */
+    margin-top: 20px;  /* 上の空白を小さく */
     text-align: center;  /* 中央寄せ */
-    font-size: 20em;  /* 文字サイズを調整 */
+    font-size: 100px;  /* 文字サイズを調整 */
     font-weight: bold;  /* 太字にして強調 */
 }
 
@@ -107,7 +107,7 @@ button:hover {
     display: block;
     margin: 20px auto; /* gifを中央に配置 */
     margin-top: 20px;
-    margin-bottom: 2000px;
+    margin-bottom: 300px;
 }
 
 #goBackButton {
